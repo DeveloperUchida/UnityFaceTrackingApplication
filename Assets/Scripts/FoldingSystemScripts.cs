@@ -14,9 +14,9 @@ public class FoldingSystemScripts : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        FoldinfImage = transform.Find("UnityButtonimage").gameObject;
-        button = transform.Find("image").GetComponent<RectTransform>();
-        contentLayout = transform.Find("Content").GetComponent<VerticalLayoutGroup>();
+        FoldinfImage = transform.Find("image/UntiyButtonimage.png").gameObject;
+        button = transform.Find("image/Button").GetComponent<RectTransform>();
+        contentLayout = transform.Find("image").GetComponent<VerticalLayoutGroup>();
     }
 
     // Update is called once per frame
